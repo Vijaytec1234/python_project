@@ -34,6 +34,9 @@
         <jsf-myfaces.version>2.0.5</jsf-myfaces.version>
         <jsf-mojarra.version>2.0.5-b02</jsf-mojarra.version>        
         <maven.jetty.plugin.version>6.1.22</maven.jetty.plugin.version>
+        <sonar.host.url>http://3.89.246.42:9000/</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+        <sonar.password></sonar.password>        
     </properties>
 
     <build>
