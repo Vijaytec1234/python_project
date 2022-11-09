@@ -43,8 +43,7 @@
         <finalName>python_project</finalName>
         <plugins>
             <plugin>
-               <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
+               <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
@@ -53,7 +52,7 @@
                     <source>1.5</source>
                     <target>1.5</target>
                 </configuration>
-                </plugin>         
+                      
             </plugin>
         </plugins>
     </build>
